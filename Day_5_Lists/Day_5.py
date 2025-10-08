@@ -299,21 +299,21 @@ fruits.extend(vegetables)
 print('fruits and vegetables:', fruits) # ['banana', 'orange', 'mango', 'lemon', 'Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
 print('vegetables list remains unchanged:', vegetables) # ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
 
-## counting items in a list
-# The count() method returns the number of times an item appears in a list:
+## Counting items in a list
+# the count() method returns the number of times an item appears in a list:
 fruits = ['banana', 'orange', 'mango', 'lemon']
 print(fruits.count('orange')) # 1
 ages = [22, 19, 24, 25, 26, 24, 25, 24]
 print(ages.count(24)) # 3
  
- ## finding index of an item
-# The index() method returns the index of the first occurrence of the specified item in a list:
+ ## Finding index of an item
+# the index() method returns the index of the first occurrence of the specified item in a list:
 fruits = ['banana', 'orange', 'mango', 'lemon']
 print(fruits.index('orange')) # 1
 ages = [22, 19, 24, 25, 26, 24, 25, 24]
 print(ages.index(24)) # 2, the first occurrence 
 
-## reversing a list
+## Reversing a list
 # the reverse() method reverses the order of the items in the list 
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.reverse()
@@ -322,11 +322,11 @@ ages = [220, 198, 245, 257, 263, 294, 233, 224]
 ages.reverse()
 print(ages) # [224, 233, 294, 263, 257, 245, 198, 220]
 
-## sorting list items
+## Sorting list items
 ''' 
 to sort lists we can use sort() method or sorted() built-in functions. 
 The sort() method reorders the list items in ascending order and modifies the original list.
-if an argument of sort() method reverse is equal to true, it will arrange the list in descending order.
+If an argument of sort() method reverse is equal to true, it will arrange the list in descending order.
 
 The sorted() function returns a new sorted list from the items in an iterable
 (list, tuple, dictionary, etc.) 
